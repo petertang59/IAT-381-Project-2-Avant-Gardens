@@ -1,0 +1,141 @@
+.container {
+		width: 900px;
+		margin: 20px auto;
+		float: center;
+		border-bottom: 3px solid #D9D9D9;
+}
+
+header {
+		font-family: Oswald;
+		width: 900px;
+		color: #A8A8A8;
+/* 
+		margin-left: auto;
+		margin-right: auto;
+ */
+/*  	background: yellow; */
+ 		margin: 5px auto;
+}
+
+nav ul li {
+		display: inline;
+		text-decoration: none;
+		list-style: none;
+		font-size: 32px;
+		font-family: 'Amatic SC', cursive;
+		color: #00CC1B;
+		text-align: center;
+		margin-left: 1em;
+		position: right;
+/* 		background: yellow; */
+}
+
+nav ul {
+		width: 900px;
+/* 		background: orange;  */
+		margin-left: 0em;
+}
+
+a, a:visited {
+		color:#008A00;
+		text-decoration: none;
+}
+
+a:active, a:hover {
+		color:purple;
+		text-decoration: none;
+}
+
+#link p {
+		font-size: 32px;
+		font-family: 'Amatic SC', cursive;
+		color: #00CC1B;
+		text-align: center;
+		margin-bottom: 20px;
+}
+
+h1 {
+		font-family: Oswald;
+		font-size: 30px;
+		color: #A8A8A8;
+}
+
+#banner {
+		width: 900px;
+		margin: 20px auto;
+		border-bottom: 3px solid #D9D9D9;
+		float: center;
+}
+
+#banner p {
+		color: #A8A8A8;
+		font-size: 14px;
+		font-family: 'Open Sans', sans-serif;
+		text-align: center;
+		margin: 2px;
+		padding: 20px;
+		font-weight:200;
+}
+
+#banner p a {
+		color:#008A00;
+		font-weight:200;
+		text-decoration: none;
+		font-size: 15px;
+		font-family: Open Sans;
+		font-style: italic;
+}
+
+p {
+		color: #A8A8A8;
+		font-size: 14px;
+		font-family: 'Open Sans', sans-serif;
+		text-align: center;
+		margin: 2px;
+		font-weight:200;
+			
+}
+
+.pbox {
+		float: left;
+		width: 250px;
+/* 		height: auto; */
+		color: #A8A8A8;
+/* 		background-color: yellow; */
+		margin: 10px 25px;
+		text-align: left;
+	}
+
+.pbox p {
+		font-family: Open Sans;
+		font-weight:200;
+		font-size: 14px;
+		text-align: center;
+		padding: 5px;
+}
+
+footer {
+		width: 900px;
+		margin: 10px auto;
+		position: center;
+		border-bottom: 3px solid #D9D9D9;
+/* 		background-color: yellow; */
+}
+
+.box {
+		float: left;
+		width: 250px;
+		height: 150px;
+		font-family: Oswald;
+		color: #A8A8A8;
+/* 		background-color: orange; */
+		margin: 0px 25px;
+		text-align: center;
+		font-size: 90%;
+}
+
+.box p {
+		font-family: 'Open Sans', sans-serif;
+		text-align: center;
+		margin: auto;
+	}
