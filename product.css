@@ -79,7 +79,7 @@ h2 {
 /* 		margin-right: 30px; */
 		margin-bottom: 2px;
 		padding: 5px 0px;
-		width: 400px;
+		width: 280x;
 		height: auto;
 /* 		background-color: yellow; */
 /* 		border: 3px solid green; */
@@ -97,10 +97,9 @@ h2 {
 
 #tbox {
 		float:left;
-		width: 440px;
+		width: 550px;
 		padding: 5px;
-		margin-left: 0.5em;
-/* 		background-color: yellow; */
+		background-color: yellow;
 }
 
 #tbox p {

@@ -7,11 +7,11 @@
 		<link href='http://fonts.googleapis.com/css?family=Amatic+SC:300, 700' rel='stylesheet' type='text/css'>
 	</head>
 	<body>
-		<div id="container">
+		<div class="container">
 			<header>
 			<nav>
 				<ul>
-					<left><a href="avantgardens.html"><img src="logo.png" width="200" style="margin-right:15em"/><a></left>
+					<left><a href="avantgardens.html"><img src="logo.png" width="200" style="margin-right:15em;"/><a></left>
 					<li><a href="about.html">About</a></li>
 					<li><a href="#">Contact</a></li>
 					<li><a href="#">Calendar</a></li>
@@ -19,19 +19,46 @@
 				</ul>	
 			</nav>
 			</header>
+		</div>	
+		
+		<div class="container">
+<!-- 
+			<select name="filter" style="margin: 0px 350px; margin-bottom: 30px; width:200px; font-size: 20px">
+    			<option value="#">Price</option>
+    			<option value="about.html">Name</option>
+			    <option value="#">Popularity</option>
+			    <option value="#">Occasion</option>
+			</select>
+ -->
+ 			<div class="sort">	
+ 				<ul>
+ 					<li style="text-align: left; font-size: 32px; margin-right: 175px; margin-left: 0px;">Sort By</li>
+					<li><a href="about.html"><u>Price</u></a></li>
+					<li><a href="#">Popularity</a></li>
+					<li><a href="#">Occasion</a></li>
+				</ul>	
+ 			</div>
 		</div>
 		
-		<div id="container">
-			<h1 style="margin-left: 10px; color: #127500; font-weight: 300;">Products
-			<select name="filter" style="margin-left:270px; width:200px; font-size: 14px">
-    <option value="#">Price</option>
-    <option value="about.html">Name</option>
-    <option value="#">Popularity</option>
-    <option value="#">Occasion</option>
-</select>
-</h1>
-		</div>			
-					
+	<div class="container" style="clear: both; border-bottom: 0px;">
+		<h1 style="margin: 5px 0px 5px 390px; color: #127500;">Featured Items</h1>	
+		<div class="pbox">
+		<a href="#"><img src="promo1.jpg" width="250" height="150" style="margin:10px 0px"/>
+		<p>Just a heads up: Mother's day is around the corner! Need some last minute gifts? This beautiful ...</p></a>
+		</div>
+		
+		<div class="pbox">
+		<a href="#"><img src="promo2.jpg" width="250" height="150" style="margin:10px 0px"/>
+		<p>Looking for a good get out of trouble gift? The "Love Bomb" may just be the thing for you! ...</p></a>
+		</div>
+		
+		<div class="pbox">
+		<a href="#"><img src="promo3.jpg" width="250" height="150" style="margin:10px 0px"/>
+		<p>Need something to impress that hot date of yours? The name says it all: just buy one of these and ...</p></a>
+		</div>
+	</div>			
+	
+		<div class="container" style="clear: both; border-top: 5px;">				
 			<div class="row">
 				<div class="box">
 				<a href="product.html">
