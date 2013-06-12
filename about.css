@@ -87,16 +87,15 @@ nav ul {
 
 
  .portrait{
-
  	height: 250px;
  	margin: 0 0 0 4em;
- 
  }
  
   .row{
 		width: 900px;
-		margin: 20px auto;
+		margin: 10px auto;
 		float: center;
+		background-color: yellow;
 /* 		border-bottom: 3px solid #D9D9D9; */
  }
  
@@ -162,6 +161,8 @@ nav ul {
 		position: center;
 		border-bottom: 3px solid #D9D9D9;
 /* 		background-color: yellow; */
+		clear: both;
+		border-top: 3px solid #D9D9D9;
 }
 
 .fbox {

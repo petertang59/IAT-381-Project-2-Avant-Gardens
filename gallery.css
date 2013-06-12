@@ -60,7 +60,7 @@ h1 {
  
  .row {
  	width=900px;
- 	margin: 5px 16.9em;
+ 	margin: 5px 21em;
 	float: center;
 	border: 2px;
  }
@@ -104,7 +104,7 @@ h1 {
  	width: 120px;
  	height: 120px;
  	margin: 10px 1em; 
-	border: 5px solid grey;
+	border: 3px solid green;
 }
  
  footer {
@@ -130,6 +130,7 @@ h1 {
 
 .fbox p {
 		font-family: 'Open Sans', sans-serif;
+		font-size: 13px;
 		font-weight: 300px;
 		text-align: center;
 		margin: auto;
