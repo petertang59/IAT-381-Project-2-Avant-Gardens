@@ -1,0 +1,57 @@
+table thead tr td
+{
+
+background: white;
+width:100px;
+height:80px;
+/* border:solid orange; */
+text-align: center;
+font-weight: bolder;
+font-size: 250%;
+
+}
+
+table thead tr th
+{
+
+background: #F5F5F5;
+width:120px;
+height:50px;
+font-family: Amatic SC;
+font-size: 24px;
+font-weight: 300;
+color: green;
+/* border:solid orange; */
+colspan:7;
+
+}
+
+table tbody tr td
+{
+
+background-color: #E8E8E8;
+width:120px;
+/* height:100px; */
+/* border:1px solid green; */
+padding-bottom: 50px;
+padding-right: 10px;
+text-align: right;
+font-family: Oswald;
+font-size: 15px;
+font-weight: 300;
+
+/* border:solid orange; */
+
+}
+
+table tfoot tr td
+{
+
+/* background: pink; */
+background: #F5C800;
+width:100px;
+height:100px;
+/* border:solid orange; */
+text-align: left;
+
+}

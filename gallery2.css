@@ -1,5 +1,5 @@
  .container{
-		width: 900px;
+		width: 600px;
 		margin: 20px auto;
 		float: center;
 		border-bottom: 3px solid #D9D9D9;
@@ -7,7 +7,7 @@
  
 header {
 		font-family: Oswald;
-		width: 900px;
+		width: 600px;
 		color: #A8A8A8;
 /* 
 		margin-left: auto;
@@ -21,7 +21,7 @@ nav ul li {
 		display: inline;
 		text-decoration: none;
 		list-style: none;
-		font-size: 32px;
+		font-size: 24px;
 		font-family: 'Amatic SC', cursive;
 		color: #00CC1B;
 		text-align: center;
@@ -31,13 +31,13 @@ nav ul li {
 }
 
 nav ul {
-		width: 900px;
+		width: 600px;
 /* 		background: orange;  */
 		margin-left: 0em;
 }
 
 .sort ul {
-		width: 850px;
+		width: 600px;
 		margin: 15px auto;
 /* 		background: orange;  */
 		text-align: left;
@@ -49,10 +49,10 @@ nav ul {
 		display: inline;
 		text-decoration: none;
 		list-style: none;
-		font-size: 28px;
+		font-size: 20px;
 		font-family: 'Amatic SC', cursive;
 		color: #008A00;
-		text-align: left;
+		text-align: center;
 		margin: auto 1em;
 		float: center;
 /* 		background: yellow; */
@@ -68,32 +68,39 @@ a:active, a:hover {
 		text-decoration: none;
 }
 
+img {
+		max-width: 100%;
+		width: auto/6;
+		height: auto;
+}
+
 h1 {
 		font-family: Amatic;
 		font-size: 32px;
 		color: #A8A8A8;
 		font-weight: 300px;
+		text-align: center;
 }
  
   p {
 	text-align: center;
-	font-size: 14px;
+	font-size: 12px;
 	color: #BDA0AA;
  }
 
  .box {
 	float: left;
-	width: 180px;
-	height: 260px;
+	width: 140px;
+	height: 220px;
 /* 	background-color: yellow; */
-	padding-bottom: 30px;
+	padding-bottom: 10px;
 	margin: 10px 10px;
 	
  }
  
  .box p {
  	text-align: center;
- 	margin: 10px 20px;
+ 	margin: 0px 20px;
  	color: #858585;
  	font-family: Open Sans;
  	font-weight: 300; 	
@@ -104,61 +111,61 @@ h1 {
 	text-align: center;
  	margin: 10px 20px;
  	color: #858585; 	 
- 	font-size: 14px;
+ 	font-size: 12px;
  }
  
   .row {
- 	width: 900px;
+ 	width: 600px;
 	float: center;
- 	margin: 5px 50px;
-	background-color: yellow;
+ 	margin: 5px 3.5em;
+/* 	background-color: yellow; */
 	clear: both; 
 /* 	border-top: 3px solid #D9D9D9; */
  }
  
  .flow {
  	float: center;
- 	width: 170px;
- 	height: 170px;
- 	margin: 10px auto; 	
+ 	width: 140px;
+ 	height: 140px;
+ 	margin: 0px auto; 	
  	border: 3px solid #D9D9D9;
  }
  
  .flow:hover {
  	float: center;
- 	width: 170px;
- 	height: 170px;
- 	margin: 10px auto; 
+ 	width: 140px;
+ 	height: 140px;
+ 	margin: 0px auto; 
 	border: 3px solid green;
 }
 
 .pbox {
 		float: left;
-		width: 250px;
+		width: 180px;
 /* 		height: auto; */
 		color: #A8A8A8;
 /* 		background-color: yellow; */
-		margin: 10px 25px;
+		margin: 10px 10px;
 		text-align: left;
 	}
 
 .ppic {
-		width: 250px;
-		height: 150px; 
+		width: 180px;
+		height: auto; 
 		margin:5px 0px;
 }
 
 .pbox p {
 		font-family: Open Sans;
 		font-weight:200;
-		font-size: 14px;
+		font-size: 12px;
 		text-align: center;
-		padding: 5px;
+		padding: 0px;
 		color: #A8A8A8;
 }
  
  footer {
-		width: 900px;
+		width: 600px;
 		margin: 10px auto;
 		position: center;
 		clear: both;
@@ -168,19 +175,19 @@ h1 {
 
 .fbox {
 		float: left;
-		width: 250px;
+		width: 200px;
 		height: 150px;
 		font-family: Oswald;
 		color: #A8A8A8;
 /* 		background-color: orange; */
-		margin: 0px 25px;
+		margin: 0px auto;
 		text-align: center;
 		font-size: 90%;
 }
 
 .fbox p {
 		font-family: 'Open Sans', sans-serif;
-		font-size: 13px;
+		font-size: 12px;
 		font-weight: 300px;
 		text-align: center;
 		margin: auto;
