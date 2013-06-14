@@ -1,0 +1,262 @@
+<html>
+  <head>
+		<title> Avant Gardens | Company Info </title>
+		<link rel="stylesheet" type="text/css" href="about.css" />
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,300,600' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Amatic+SC:700' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="form.css" />
+	</head>
+	<body>
+
+	<div class="container">
+		<header>
+			<nav>
+				<ul>
+					<!-- 
+<form method="get" action="http://www.google.com/search"> 
+	<div style="padding:0px;width:20em; margin-left: 39em"> 
+	<table border="0" cellpadding="0"> 
+	<tr>
+	<td> 
+	<input type="text" name="q" size="25" maxlength="255" value="" /> <input type="submit" value="Search" />
+	</td>
+	</tr> 
+	<tr>
+<!~~ 	Check box ~~>
+	<td align="right" style="font-size:100%"> 
+	<input type="checkbox" name="sitesearch" value="#" checked /> only search Avant Gardens<br/> 
+	</td>
+	</tr>
+	</table>
+	</div>
+	</form>
+ -->
+
+					<left><a href="avantgardens.html"><img src="logo.png" width="200" style="margin-right:15em"/></a></left>
+					<li><a href="about.html">About</a></li>
+					<li><a href="#">Contact</a></li>
+					<li><a href="#">Calendar</a></li>
+					<li><a href="gallery.html">Products</a></li>
+				</ul>
+			</nav>
+		</header>
+	</div>
+
+<!-- seperation-->
+<form class="contain">
+<!-- -- -- -- -- -- -- -- -- -- Information process -- -- -- -- -- -- -- -- -- -->
+<div class="stepcount">
+
+<img src="one.png" alt="Step 1" height="26px">
+</div>
+
+<div class="stephead">
+
+ <p> PERSONAL INFORMATION </p>
+
+</div>
+<div class="stepbody">
+		<ol>
+			<li>
+
+				<label for="name">Name</label>
+				<input id="name" name="name" type="text" placeholder="First and Last Name" required autofocus/>
+
+			</li>
+			<li>
+
+				<label for="email">Email</label>
+				<input id="email" name="email" type="mail" placeholder="Example@domain.com" required autofocus/>
+
+			</li>
+			<li>
+
+			<label for="phone">Phone</label>
+			<input id="phone" name="phone" type="tel" placeholder="604-555-5555" required autofocus/>
+
+			</li>
+
+
+		</ol>
+</div>
+
+	<!-- Section for Delivery -->
+
+<legend>Delivery Address</legend>
+
+				<textarea id="address" name="address" rows=5 required></textarea>
+
+
+
+<!-- -- -- -- -- -- -- -- -- -- choosing process -- -- -- -- -- -- -- -- -- -->
+
+<div class="stepcount">
+
+<img src="two.png" alt="Step 2" height="26px">
+</div>
+
+<div class="stephead">
+
+ <p> SELECT YOUR PRODUCT </p>
+
+</div>
+<div class="stepbody">
+<ol>
+
+	<li>
+
+		<input id="basic" name="name" type="checkbox" />
+		<label for="basic">Basic</label>
+
+	</li>
+	<li>
+
+		<input id="deluxe" name="name" type="checkbox" />
+		<label for="deluxe">Deluxe</label>
+
+	</li>			
+	<li>
+
+		<input id="premium" name="name" type="checkbox" />
+		<label for="premium">Premium</label>
+
+	</li>			
+
+</ol>
+</div>
+<!-- -- -- -- -- -- -- -- -- -- additional process -- -- -- -- -- -- -- -- -- -->
+
+<div class="stepcount">
+
+<img src="three.png" alt="Step 3" height="26px">
+</div>
+
+<div class="stephead">
+
+ <p> CHOOSE ANY ADDITIONAL ITEMS </p>
+
+</div><div class="stepbody_add3">
+<ul>
+
+	<li style="list-style: none">	
+		<input type="checkbox" name="greet" value="oneg" />
+		<label for="greet">greeting card</label>
+	</li>
+</ul>
+</div>
+<div class="stepbody_add1">
+<ul>
+
+	<li style="list-style: none">	
+		<input type="checkbox" name="balloon" value="oneb" />
+		<label for="balloon">1 balloon</label>
+
+		<input type="checkbox" name="balloon" value="oneb" class="add1" />
+		<label for="balloon">2 balloon</label>
+
+		<input type="checkbox" name="balloon" value="oneb" class="add2" />
+		<label for="balloon">3 balloon</label>	
+	</li>
+</ul>
+</div>
+<div class="stepbody_add1">
+<ul>
+
+	<li style="list-style: none">	
+		<input type="checkbox" name="balloon" value="oneb" />
+		<label for="balloon">small bear</label>
+
+		<input type="checkbox" name="balloon" value="oneb" class="add3" />
+		<label for="balloon">medium bear</label>
+
+		<input type="checkbox" name="balloon" value="oneb" class="add4" />
+		<label for="balloon">large bear</label>	
+	</li>
+</ul>
+</div>
+<div class="stepbody_add1">
+<ul>
+
+	<li style="list-style: none">	
+		<input type="checkbox" name="balloon" value="oneb" />
+		<label for="balloon">small box</label>
+
+		<input type="checkbox" name="balloon" value="oneb" class="add5" />
+		<label for="balloon">medium box</label>
+
+		<input type="checkbox" name="balloon" value="oneb" class="add6" />
+		<label for="balloon">large box</label>	
+	</li>
+</ul>
+</div>
+
+
+
+<!-- -- -- -- -- -- -- -- -- -- payment process -- -- -- -- -- -- -- -- -- -->
+<div class="stepcount">
+
+<img src="four.png" alt="Step 4" height="26px">
+</div>
+
+<div class="stephead">
+
+ <p> SELECT YOUR PAYMENT </p>
+
+</div>
+<div class="stepbody_add2">
+<ol>
+
+	<li>
+
+		<input id="visa" name="cardtype" type="radio" />
+		<label for="visa">Visa</label>
+
+	</li>
+	<li>
+
+		<input id="amex" name="cardtype" type="radio" />
+		<label for="amex">American Express</label>
+
+	</li>			
+	<li>
+
+		<input id="mastercard" name="cardtype" type="radio" />
+		<label for="mastercard">MasterCard</label>
+
+	</li>			
+
+</ol>
+</div>
+
+<button type="submit">Buy It</button>
+			<legend></legend>
+
+</form>
+<!-- seperation-->
+
+	<footer>
+		<div class="fbox">
+			<h2>Location</h2>
+			<p>1499 Sperling Avenue</p> 
+			<p>Burnaby, BC, V5E2V4 Canada</p>
+		</div>		
+		<div class="fbox">
+			<h2>Hours</h2>
+			<p>Monday - Thursday: 9AM-8PM</p>
+			<p>Friday - Sunday: 10AM - 6PM</p> 
+			<p>Holidays: 11AM - 6PM</p>
+		</div>
+		<div class="fbox">
+			<h2>Contact</h2>
+			<p>avantgardens@gmail.com</p>
+			<p>778-999-9999</p>
+		</div>
+		</div>
+		<div>
+		<center><a href="avantgardens.html"><img src="logo.png" width="150" style="margin:20px 0px"/></a></center>
+		</div>
+	</footer>
+
+	</body>
+
+</html>

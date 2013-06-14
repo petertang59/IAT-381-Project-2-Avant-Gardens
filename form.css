@@ -1,0 +1,114 @@
+h1 {
+		font-family: Oswald;
+		font-size: 32px;
+		color: #A8A8A8;
+		margin: 5px auto;
+}
+
+p {
+		font-family: Oswald;
+		font-style: normal;
+		font-size: 18px;
+		font-weight: 300;
+		color: #A8A8A8;
+}
+
+li {
+		font-family: Open Sans;
+		font-style: normal;
+		font-size: 14px;
+		font-weight: 300;
+		color: #A8A8A8;
+		text-decoration: none;
+		list-style: none;
+}
+
+li, legend {
+		font-family: Open Sans;
+		font-style: normal;
+		font-size: 14px;
+		font-weight: 300;
+		color: #A8A8A8;	
+}
+
+.contain{
+	float: center;
+  	margin: auto;
+/* 	background-color: #E7CFFF; */
+	padding: 20px 0px 20px 40px;
+	width: 800px;
+}
+
+#address{
+	float: left;
+	margin-left: 25px;
+}
+
+.stepcount {
+	float: left;
+	border-top: 10px;
+	padding-top: 10px;
+	clear:both;
+}
+.stephead {
+	float: left;
+	margin: 0px 0px 0px 20px;
+	color: rgb(120,162,47);
+	text-align: left;
+	width:300px;
+	height:30px;
+	overflow: hidden;
+	padding-bottom: 10px;
+
+}
+
+.stepbody{
+	clear:both;
+	padding-top: 10px;
+
+}
+
+.stepbody_add{
+	padding-top: 20px;
+
+}
+.stepbody_add3{
+	padding-top: 30px;
+
+}
+.stepbody_add2{
+	padding-top: 30px;
+
+}
+.stepbody_add1{
+	padding-top: 0px;
+
+}
+.adda{
+	list-style-type: none;
+}
+.add1{
+	margin-left: 80px;
+}
+.add2{
+	margin-left: 80px;
+}
+.add3{
+	margin-left: 75px;
+}
+.add4{
+	margin-left: 58px;
+}
+.add5{
+	margin-left: 78px;
+}
+.add6{
+	margin-left: 61px;
+}
+
+button {
+	float: center;
+	margin: auto;
+	width: 100px;
+	text-align: center;
+}

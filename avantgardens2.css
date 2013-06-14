@@ -41,6 +41,11 @@ nav ul li {
 /* 		background: yellow; */
 }
 
+.logo {
+width:170px;
+margin-right:8em;
+}
+
 nav ul img {
 		width: auto/6;
 		height: auto;

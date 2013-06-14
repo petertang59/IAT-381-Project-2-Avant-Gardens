@@ -60,7 +60,7 @@ a:active, a:hover {
 
 h1 {
 		font-family: Oswald;
-		font-size: 36px;
+		font-size: 32px;
 		color: #A8A8A8;
 		margin: 5px auto;
 }
@@ -68,7 +68,7 @@ h1 {
 h2 {
 		font-family: Open Sans;
 		font-style: normal;
-		font-size: 18px;
+		font-size: 14px;
 		font-weight: 300;
 		color: #A8A8A8;
 }
@@ -99,7 +99,7 @@ h2 {
 		float:left;
 		width: 550px;
 		padding: 5px;
-		background-color: yellow;
+/* 		background-color: yellow; */
 }
 
 #tbox p {

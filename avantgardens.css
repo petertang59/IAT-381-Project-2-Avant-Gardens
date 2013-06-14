@@ -40,6 +40,11 @@ nav ul {
 		background-color: white;
 }
 
+.logo {
+width:200px;
+margin-right:12em;
+}
+
 a, a:visited {
 		color:#008A00;
 		text-decoration: none;

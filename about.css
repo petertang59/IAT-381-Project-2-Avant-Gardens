@@ -1,6 +1,6 @@
  .container{
 		width: 900px;
-		margin: 20px auto;
+		margin: 0px auto;
 		float: center;
 		border-bottom: 3px solid #D9D9D9;
  }
@@ -14,8 +14,9 @@
 		margin-right: auto;
  */
 /*  		background: yellow; */
- 		margin: 5px auto;
+ 		margin: 0px auto;
 /* 		border-bottom: 3px solid #D9D9D9; */	
+		margin-top: 20px;
  }
  
  h1{
@@ -27,6 +28,11 @@
 		font-weight:700;
 /* 		background: yellow; */
  }
+ 
+ .logo {
+width: 200px;
+margin-right:12em;
+}
  
  a, a:visited {
 	color:#008A00;
@@ -56,6 +62,7 @@ nav ul {
 /* 		background: orange;  */
 /* 		text-align: right; */
 		margin-left: 0em;
+		margin-top: 0px;
 }
 
 #banner {
