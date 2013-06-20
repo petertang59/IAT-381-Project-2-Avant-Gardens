@@ -1,5 +1,5 @@
  .container{
-		width: 600px;
+		width: 380px;
 		margin: 0px auto;
 		float: center;
 		border-bottom: 3px solid #D9D9D9;
@@ -7,7 +7,7 @@
  
 header {
 		font-family: Oswald;
-		width: 600px;
+		width: 380px;
 		color: #A8A8A8;
 /* 
 		margin-left: auto;
@@ -17,40 +17,44 @@ header {
  		margin-top: 20px;
 }
 
+nav ul {
+/* 		position: fixed; */
+		width: 380px;
+/* 		background: orange;  */
+		margin-left: 0em;
+		margin-right: 0em;
+		margin-top: 0px;
+/* 		z-index: 10; */
+		background-color: white;
+}
+
 nav ul li {
 		display: inline;
 		text-decoration: none;
 		list-style: none;
-		font-size: 24px;
+		font-size: 20px;
 		font-family: 'Amatic SC', cursive;
 		color: #00CC1B;
 		text-align: center;
-		margin: 0px 1.5em;
+		margin-left: 0.5em;
+		margin-right: 0.5em;
+		position: center;
 /* 		background: yellow; */
-		float: center;
-}
-
-nav ul {
-/* 		position: fixed; */
-		width: 600px;
-/* 		background: orange;  */
-		margin-left: 0em;
-
-/* 		z-index: 10; */
 }
 
 .logo {
-	width:200px;
-	margin: auto 155px;
+width:160px;
+margin: 5px 70px;
+padding-right: 40px;
 }
  
  h1{
 		color: #A8A8A8;
-		font-size: 13px;
+		font-size: 14px;
 		font-family: 'Open Sans', sans-serif;
 		text-align: left;
 /* 		line-height: 1.3em; */
-		font-weight:700;
+		font-weight:300;
 /* 		background: yellow; */
  }
  
@@ -83,7 +87,7 @@ a:active, a:hover {
  }
  
  footer {
-		width: 600px;
+		width: 380px;
 		margin: 10px auto;
 		position: center;
 		border-bottom: 3px solid #D9D9D9;
@@ -93,9 +97,9 @@ a:active, a:hover {
 }
 
 .fbox {
-		float: left;
-		width: 190px;
-		height: 150px;
+		float: center;
+		width: 360px;
+		height: 100px;
 		font-family: Oswald;
 		color: #A8A8A8;
 /* 		background-color: orange; */
@@ -120,7 +124,7 @@ height:80px;
 /* border:solid orange; */
 text-align: center;
 font-weight: bolder;
-font-size: 200%;
+font-size: 180%;
 font-family: Amatic SC;
 color: green;
 float: center;
@@ -138,12 +142,12 @@ table thead tr th
 {
 
 background: #E8E8E8;
-width:80px;
+width:50px;
 height:50px;
 /* border:solid orange; */
 colspan:7;
 font-family: Amatic SC;
-font-size: 20px;
+font-size: 18px;
 font-weight: 300;
 color: green;
 
@@ -155,7 +159,7 @@ background: #F5F5F5;
 width:80px;
 /* height:100px; */
 /* border:1px solid green; */
-padding-bottom: 50px;
+padding-bottom: 30px;
 padding-right: 5px;
 text-align: right;
 /* border:solid orange; */

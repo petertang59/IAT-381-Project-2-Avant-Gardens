@@ -162,6 +162,12 @@ nav ul {
 /* 		background: yellow; */
  }
  
+ .arrow {
+ width:30px; 
+ margin-right:4em;
+ margin-left: 4em;
+ }
+ 
  footer {
 		width: 900px;
 		margin: 10px auto;
