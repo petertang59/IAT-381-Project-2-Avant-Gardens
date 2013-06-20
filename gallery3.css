@@ -1,5 +1,5 @@
  .container{
-		width: 900px;
+		width: 380px;
 		margin: 20px auto;
 		float: center;
 		border-bottom: 3px solid #D9D9D9;
@@ -7,7 +7,7 @@
  
 header {
 		font-family: Oswald;
-		width: 900px;
+		width: 380px;
 		color: #A8A8A8;
 /* 
 		margin-left: auto;
@@ -17,41 +17,48 @@ header {
  		margin: 5px auto;
 }
 
+nav ul {
+/* 		position: fixed; */
+		width: 380px;
+/* 		background: orange;  */
+		margin-left: 0em;
+		margin-right: 0em;
+		margin-top: 0px;
+/* 		z-index: 10; */
+		background-color: white;
+}
+
 nav ul li {
 		display: inline;
 		text-decoration: none;
 		list-style: none;
-		font-size: 32px;
-		font-family: 'Amatic SC', cursive;
-		color: #00CC1B;
-		text-align: right;
-		margin-left: 1em;
-		position: right;
-/* 		background: yellow; */
-}
-
-nav ul {
-		width: 900px;
-/* 		background: orange;  */
-		margin-left: 0em;
-}
-
- .logo {
-width: 200px;
-margin-right:12em;
-}
-
-#link p {
-		font-size: 32px;
+		font-size: 20px;
 		font-family: 'Amatic SC', cursive;
 		color: #00CC1B;
 		text-align: center;
-		margin-bottom: 20px;
+		margin-left: 0.5em;
+		margin-right: 0.5em;
+		position: center;
+/* 		background: yellow; */
+}
+
+.logo {
+width:160px;
+margin: 5px 70px;
+padding-right: 40px;
+}
+
+#link p {
+		font-size: 20px;
+		font-family: 'Amatic SC', cursive;
+		color: #00CC1B;
+		text-align: center;
+		margin-bottom: 0px;
 }
 
 .sort ul {
-		width: 850px;
-		margin: 15px 0px;
+		width: 380px;
+		margin: 15px auto;
 /* 		background: orange;  */
 		text-align: left;
 		color: #008A00;
@@ -62,11 +69,11 @@ margin-right:12em;
 		display: inline;
 		text-decoration: none;
 		list-style: none;
-		font-size: 28px;
+		font-size: 20px;
 		font-family: 'Amatic SC', cursive;
 		color: #008A00;
-		text-align: left;
-		margin: auto 2.6em auto 0em;
+		text-align: center;
+		margin: auto 0.5em auto 0px;
 		float: center;
 /* 		background: yellow; */
 }
@@ -81,32 +88,39 @@ a:active, a:hover {
 		text-decoration: none;
 }
 
+img {
+		max-width: 100%;
+		width: auto/6;
+		height: auto;
+}
+
 h1 {
 		font-family: Amatic;
 		font-size: 32px;
 		color: #A8A8A8;
 		font-weight: 300px;
+		text-align: center;
 }
  
   p {
 	text-align: center;
-	font-size: 14px;
+	font-size: 12px;
 	color: #BDA0AA;
  }
 
  .box {
 	float: left;
-	width: 180px;
-	height: 260px;
+	width: 140px;
+	height: 220px;
 /* 	background-color: yellow; */
-	padding-bottom: 30px;
-	margin: 10px 10px;
+	padding-bottom: 10px;
+	margin: 25px 10px;
 	
  }
  
  .box p {
  	text-align: center;
- 	margin: 10px 20px;
+ 	margin: 0px 20px;
  	color: #858585;
  	font-family: Open Sans;
  	font-weight: 300; 	
@@ -117,61 +131,62 @@ h1 {
 	text-align: center;
  	margin: 10px 20px;
  	color: #858585; 	 
- 	font-size: 14px;
+ 	font-size: 12px;
  }
  
   .row {
- 	width: 900px;
+ 	width: 380px;
 	float: center;
- 	margin: 5px 50px;
-	background-color: yellow;
+ 	margin: 5px 1.5em;
+/* 	background-color: yellow; */
 	clear: both; 
 /* 	border-top: 3px solid #D9D9D9; */
  }
  
  .flow {
  	float: center;
- 	width: 170px;
- 	height: 170px;
- 	margin: 10px auto; 	
+ 	width: 140px;
+ 	height: 140px;
+ 	margin: 0px auto; 	
  	border: 3px solid #D9D9D9;
  }
  
  .flow:hover {
  	float: center;
- 	width: 170px;
- 	height: 170px;
- 	margin: 10px auto; 
+ 	width: 140px;
+ 	height: 140px;
+ 	margin: 0px auto; 
 	border: 3px solid green;
 }
 
 .pbox {
-		float: left;
-		width: 250px;
+		float: center;
+		width: 380px;
 /* 		height: auto; */
 		color: #A8A8A8;
 /* 		background-color: yellow; */
-		margin: 10px 25px;
-		text-align: left;
+		margin: 10px 0px;
+		text-align: center;
 	}
 
 .ppic {
-		width: 250px;
-		height: 150px; 
+		width: 280px;
+		height: auto; 
 		margin:5px 0px;
 }
 
 .pbox p {
 		font-family: Open Sans;
 		font-weight:200;
-		font-size: 14px;
+		font-size: 12px;
 		text-align: center;
-		padding: 5px;
+		padding: 0px 50px;
 		color: #A8A8A8;
+		margin: auto;
 }
  
  footer {
-		width: 900px;
+		width: 380px;
 		margin: 10px auto;
 		position: center;
 		clear: both;
@@ -180,20 +195,20 @@ h1 {
 }
 
 .fbox {
-		float: left;
-		width: 250px;
-		height: 150px;
+		float: center;
+		width: 200px;
+		height: 100px;
 		font-family: Oswald;
 		color: #A8A8A8;
 /* 		background-color: orange; */
-		margin: 0px 25px;
+		margin: 0px auto;
 		text-align: center;
 		font-size: 90%;
 }
 
 .fbox p {
 		font-family: 'Open Sans', sans-serif;
-		font-size: 13px;
+		font-size: 12px;
 		font-weight: 300px;
 		text-align: center;
 		margin: auto;

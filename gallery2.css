@@ -25,15 +25,23 @@ nav ul li {
 		font-family: 'Amatic SC', cursive;
 		color: #00CC1B;
 		text-align: center;
-		margin-left: 1em;
-		position: right;
+		margin: 0px 1.5em;
 /* 		background: yellow; */
+		float: center;
 }
 
 nav ul {
+/* 		position: fixed; */
 		width: 600px;
 /* 		background: orange;  */
 		margin-left: 0em;
+
+/* 		z-index: 10; */
+}
+
+.logo {
+	width:200px;
+	margin: auto 155px;
 }
 
 .sort ul {
@@ -53,7 +61,7 @@ nav ul {
 		font-family: 'Amatic SC', cursive;
 		color: #008A00;
 		text-align: center;
-		margin: auto 1em;
+		margin: auto 1em auto 0px;
 		float: center;
 /* 		background: yellow; */
 }
@@ -66,6 +74,14 @@ a, a:visited {
 a:active, a:hover {
 		color:purple;
 		text-decoration: none;
+}
+
+#link p {
+		font-size: 24px;
+		font-family: 'Amatic SC', cursive;
+		color: #00CC1B;
+		text-align: center;
+		margin-bottom: 20px;
 }
 
 img {
@@ -94,7 +110,7 @@ h1 {
 	height: 220px;
 /* 	background-color: yellow; */
 	padding-bottom: 10px;
-	margin: 10px 10px;
+	margin: 25px 10px;
 	
  }
  

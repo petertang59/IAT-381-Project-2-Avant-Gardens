@@ -1,5 +1,5 @@
  .container{
-		width: 700px;
+		width: 600px;
 		margin: 20px auto;
 		float: center;
 		border-bottom: 3px solid #D9D9D9;
@@ -7,7 +7,7 @@
  
  header{
 		font-family: Oswald;
-		width: 700px;
+		width: 600px;
 		color: #A8A8A8;
 /* 
 		margin-left: auto;
@@ -24,7 +24,7 @@
 		font-family: 'Open Sans', sans-serif;
 		text-align: left;
 /* 		line-height: 1.3em; */
-		font-weight:700;
+		font-weight:600;
 /* 		background: yellow; */
  }
  
@@ -38,7 +38,7 @@ a:active, a:hover {
 	text-decoration: none;
 }
  
- nav ul li {
+nav ul li {
 		display: inline;
 		text-decoration: none;
 		list-style: none;
@@ -46,23 +46,23 @@ a:active, a:hover {
 		font-family: 'Amatic SC', cursive;
 		color: #00CC1B;
 		text-align: center;
-		margin-left: 1em;
-		position: right;
+		margin: 0px 1.5em;
 /* 		background: yellow; */
+		float: center;
 }
 
 nav ul {
-		width: 700px;
+/* 		position: fixed; */
+		width: 600px;
 /* 		background: orange;  */
-/* 		text-align: right; */
 		margin-left: 0em;
-		margin-right: 0em;
-		margin-top: 0px;
+
+/* 		z-index: 10; */
 }
 
- .logo {
-width: 170px;
-margin-right:8em;
+.logo {
+	width:200px;
+	margin: auto 155px;
 }
 
 nav ul img {
@@ -77,7 +77,7 @@ img {
 		}
 
 #banner {
-		width: 700px;
+		width: 600px;
 		margin: 20px auto;
 		border-bottom: 3px solid #D9D9D9;
 }
@@ -105,12 +105,13 @@ img {
 
 
  .portrait{
+	float: left;
  	height: 200px;
- 	margin: 0 0 0 4em;
+ 	margin: auto 40px;
  }
  
   .row{
-		width: 700px;
+		width: 600px;
 		margin: 10px auto;
 		float: center;
 /* 		background-color: yellow; */
@@ -119,7 +120,7 @@ img {
  
  .box {
 	float: left;
-	width: 233px;
+	width: 200px;
 /* 	background-color: #FFF705; */
 	margin: 20px 0px;
 /* 	padding-bottom: 50px; */
@@ -131,14 +132,14 @@ img {
  
  .box1 {
 	float: left;
-	width: 450px;
+	width: 360px;
 	height:  255px;
 /* 	background-color: orange; */
 	margin: auto;
 	font-size: 11px;
 	font-family: Open Sans;
 	font-weight: 300px;
-	padding-top: 10px;
+	padding-top: 20px;
 	color: #A8A8A8;	
  }
  
@@ -174,7 +175,7 @@ img {
  }
  
  footer {
-		width: 700px;
+		width: 600px;
 		margin: 10px auto;
 		position: center;
 		border-bottom: 3px solid #D9D9D9;
@@ -184,12 +185,13 @@ img {
 }
 
 .fbox {
-		float: center;
-		width: 250px;
-		height: 100px;
+		float: left;
+		width: 190px;
+		height: 120px;
 		color: #A8A8A8;
 /* 		background-color: orange; */
-		margin: 0px auto;
+		margin: auto 5px;
+		margin-bottom: 50px;
 		text-align: center;
 		font-size: 90%;
 }
