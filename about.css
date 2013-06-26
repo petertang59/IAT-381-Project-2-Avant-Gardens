@@ -1,37 +1,54 @@
- .container{
-		width: 900px;
+.container {
+/* 		width: 900px; */
+		max-width: 900px;
+		width: 80%;
 		margin: 0px auto;
 		float: center;
 		border-bottom: 3px solid #D9D9D9;
- }
- 
- header{
+		position: center;
+/* 		background-color: orange; */
+}
+
+header {
 		font-family: Oswald;
-		width: 900px;
+		width: 100%;
 		color: #A8A8A8;
 /* 
 		margin-left: auto;
 		margin-right: auto;
  */
-/*  		background: yellow; */
  		margin: 0px auto;
-/* 		border-bottom: 3px solid #D9D9D9; */	
-		margin-top: 20px;
- }
- 
- h1{
-		color: #A8A8A8;
-		font-size: 13px;
-		font-family: 'Open Sans', sans-serif;
-		text-align: left;
-/* 		line-height: 1.3em; */
-		font-weight:700;
+ 		margin-top: 20px;
+ 		border-bottom: 3px solid #D9D9D9;
+ 		float: center;
+}
+
+nav ul li {
+		display: inline;
+		text-decoration: none;
+		list-style: none;
+		font-size: 32px;
+		font-family: 'Amatic SC', cursive;
+		color: #00CC1B;
+		text-align: center;
+		margin-left: 4%;
 /* 		background: yellow; */
- }
- 
- .logo {
-width: 200px;
-margin-right:12em;
+}
+
+nav ul {
+/* 		position: fixed; */
+		width: 100%;
+/* 		background: orange;  */
+		margin-left: 0em;
+		margin-top: 0px;
+		float: center;
+/* 		z-index: 10; */
+/* 		background-color: yellow; */
+}
+
+.logo {
+width:22%;
+/* padding-right:25%; */
 }
  
  a, a:visited {
@@ -43,32 +60,12 @@ a:active, a:hover {
 	color:purple;
 	text-decoration: none;
 }
- 
- nav ul li {
-		display: inline;
-		text-decoration: none;
-		list-style: none;
-		font-size: 32px;
-		font-family: 'Amatic SC', cursive;
-		color: #00CC1B;
-		text-align: center;
-		margin-left: 1em;
-		position: right;
-/* 		background: yellow; */
-}
-
-nav ul {
-		width: 900px;
-/* 		background: orange;  */
-/* 		text-align: right; */
-		margin-left: 0em;
-		margin-top: 0px;
-}
 
 #banner {
-		width: 900px;
+		width: 100%;
 		margin: 20px auto;
 		border-bottom: 3px solid #D9D9D9;
+		float: center;
 }
 
 #banner p {
@@ -93,41 +90,40 @@ nav ul {
 }
 
 
- .portrait{
- 	height: 250px;
- 	margin: 0 0 0 4em;
- }
- 
-  .row{
-		width: 900px;
-		margin: 10px auto;
-		float: center;
-		background-color: yellow;
-/* 		border-bottom: 3px solid #D9D9D9; */
- }
+.section {
+		width: 100%;
+		margin: auto;
+		float: left;
+		margin-bottom: 2em;
+/* 		background-color: yellow; */
+}
  
  .box {
 	float: left;
-	width: 233px;
-/* 	background-color: #FFF705; */
-	margin: 20px 0px;
+	width: 20%;
 /* 	padding-bottom: 50px; */
 	font-size: 13px;
 	font-family: Open Sans;
 	font-weight: 300px;
-	color: #A8A8A8;	
+	color: #A8A8A8;
+	height: 300px;
+/* 	background-color: yellow; */
+ }
+ 
+  .portrait{
+ 	height: auto;
+ 	width: 100%;
  }
  
  .box1 {
 	float: left;
-	width: 600px;
-	height:  255px;
+	width: 70%;
+	height: 300px;
+	margin: 0px 5%; 
 /* 	background-color: orange; */
-	margin: 20px 20px;
 	font-size: 13px;
 	font-family: Open Sans;
 	font-weight: 300px;
-	padding-top: 20px;
 	color: #A8A8A8;	
  }
  
@@ -148,6 +144,8 @@ nav ul {
 		text-align: left;
 /* 		line-height: 1.3em; */
 		font-weight:200;
+		height: auto;
+		width: auto;
 /* 		background: yellow; */
  }
  
@@ -163,10 +161,10 @@ nav ul {
  }
  
  footer {
-		width: 900px;
+		width: 100%;
 		margin: 10px auto;
 		position: center;
-		border-bottom: 3px solid #D9D9D9;
+/* 		border-bottom: 3px solid #D9D9D9; */
 /* 		background-color: yellow; */
 		clear: both;
 		border-top: 3px solid #D9D9D9;
@@ -174,11 +172,12 @@ nav ul {
 
 .fbox {
 		float: left;
-		width: 250px;
+		width: 30%;
 		height: 150px;
+		font-family: Oswald;
 		color: #A8A8A8;
 /* 		background-color: orange; */
-		margin: 0px 25px;
+		margin: 0px 1.5%;
 		text-align: center;
 		font-size: 90%;
 }
@@ -196,3 +195,7 @@ nav ul {
 		margin: auto;
 		font-weight: 200
 	}
+.icon {
+		width:30px; 
+		margin: auto;
+}

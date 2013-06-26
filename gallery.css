@@ -1,20 +1,31 @@
  .container{
-		width: 900px;
+ 		max-width: 900px;
+		width: 80%;
 		margin: 20px auto;
 		float: center;
 		border-bottom: 3px solid #D9D9D9;
  }
  
+ .section {
+		width: 100%;
+		margin: auto;
+		float: center;
+		margin-bottom: 2em;
+/* 		background-color: yellow; */
+}
+
 header {
 		font-family: Oswald;
-		width: 900px;
+		width: 100%;
 		color: #A8A8A8;
 /* 
 		margin-left: auto;
 		margin-right: auto;
  */
-/*  	background: yellow; */
- 		margin: 5px auto;
+ 		margin: 0px auto;
+ 		margin-top: 20px;
+ 		border-bottom: 3px solid #D9D9D9;
+ 		float: center;
 }
 
 nav ul li {
@@ -24,21 +35,25 @@ nav ul li {
 		font-size: 32px;
 		font-family: 'Amatic SC', cursive;
 		color: #00CC1B;
-		text-align: right;
-		margin-left: 1em;
-		position: right;
+		text-align: center;
+		margin-left: 4%;
 /* 		background: yellow; */
 }
 
 nav ul {
-		width: 900px;
+/* 		position: fixed; */
+		width: 100%;
 /* 		background: orange;  */
 		margin-left: 0em;
+		margin-top: 0px;
+		float: center;
+/* 		z-index: 10; */
+/* 		background-color: yellow; */
 }
 
- .logo {
-width: 200px;
-margin-right:12em;
+.logo {
+width:22%;
+/* padding-right:25%; */
 }
 
 #link p {
@@ -50,25 +65,30 @@ margin-right:12em;
 }
 
 .sort ul {
-		width: 850px;
 		margin: 15px 0px;
 /* 		background: orange;  */
-		text-align: left;
+		float: center;
+		text-align: center;
 		color: #008A00;
-		
+		border-bottom: 3px solid #D9D9D9;
+		padding-bottom: 1em;
 }
 
 .sort ul li{
 		display: inline;
 		text-decoration: none;
 		list-style: none;
-		font-size: 28px;
-		font-family: 'Amatic SC', cursive;
-		color: #008A00;
+		font-family: Oswald;
+		color: #A8A8A8;
+		font-size: 20px;
 		text-align: left;
-		margin: auto 2.6em auto 0em;
+		margin: auto 1em;
 		float: center;
 /* 		background: yellow; */
+}
+
+.sort ul li: onclick {
+
 }
 
 a, a:visited {
@@ -82,10 +102,11 @@ a:active, a:hover {
 }
 
 h1 {
-		font-family: Amatic;
+		font-family: Oswald;
 		font-size: 32px;
 		color: #A8A8A8;
 		font-weight: 300px;
+		text-align: center;
 }
  
   p {
@@ -96,11 +117,11 @@ h1 {
 
  .box {
 	float: left;
-	width: 180px;
-	height: 260px;
+	width: 20%;
+	height: auto;
 /* 	background-color: yellow; */
-	padding-bottom: 30px;
-	margin: 10px 10px;
+/* 	padding-bottom: 10px; */
+	margin: 10px 1.5%;
 	
  }
  
@@ -121,57 +142,64 @@ h1 {
  }
  
   .row {
- 	width: 900px;
+ 	width: 100%;
 	float: center;
- 	margin: 5px 50px;
-	background-color: yellow;
+ 	margin: 5px 2em;
+/* 	background-color: yellow; */
 	clear: both; 
 /* 	border-top: 3px solid #D9D9D9; */
  }
  
  .flow {
  	float: center;
- 	width: 170px;
- 	height: 170px;
+ 	width: 100%;
+ 	height: auto;
  	margin: 10px auto; 	
  	border: 3px solid #D9D9D9;
  }
  
  .flow:hover {
  	float: center;
- 	width: 170px;
- 	height: 170px;
+ 	width: 100%;
+ 	height: auto;
  	margin: 10px auto; 
 	border: 3px solid green;
 }
 
 .pbox {
 		float: left;
-		width: 250px;
+		width: 30%;
 /* 		height: auto; */
 		color: #A8A8A8;
 /* 		background-color: yellow; */
-		margin: 10px 25px;
+		margin: 0px 1.5%;
+		margin-bottom: 10px
 		text-align: left;
 	}
 
 .ppic {
-		width: 250px;
-		height: 150px; 
+		width: 100%;
+		height: auto; 
 		margin:5px 0px;
 }
 
 .pbox p {
 		font-family: Open Sans;
-		font-weight:200;
+		font-weight: 300;
 		font-size: 14px;
 		text-align: center;
 		padding: 5px;
 		color: #A8A8A8;
 }
+
+.arrow {
+		width:4%; 
+		margin: auto 40%;
+		clear: both;
+} 
  
  footer {
-		width: 900px;
+		width: 100%;
 		margin: 10px auto;
 		position: center;
 		clear: both;
@@ -179,21 +207,26 @@ h1 {
 /* 		background-color: yellow; */
 }
 
+.icon {
+		width:30px; 
+		margin: auto;
+}
+
 .fbox {
 		float: left;
-		width: 250px;
-		height: 150px;
+		width: 28%;
+		height: 180px;
 		font-family: Oswald;
 		color: #A8A8A8;
 /* 		background-color: orange; */
-		margin: 0px 25px;
+		margin: 0px 2.5%;
 		text-align: center;
 		font-size: 90%;
 }
 
 .fbox p {
 		font-family: 'Open Sans', sans-serif;
-		font-size: 13px;
+		font-size: 12px;
 		font-weight: 300px;
 		text-align: center;
 		margin: auto;
