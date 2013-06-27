@@ -7,6 +7,8 @@
 		<link rel="stylesheet" media= "(max-width: 500px)" type="text/css" href="calendar3.css"/>		
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,300,600' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Amatic+SC:700' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+		
 	</head>
 	<body>
 
@@ -14,37 +16,17 @@
 		<header>
 			<nav>
 				<ul>
-					<!-- 
-<form method="get" action="http://www.google.com/search"> 
-	<div style="padding:0px;width:20em; margin-left: 39em"> 
-	<table border="0" cellpadding="0"> 
-	<tr>
-	<td> 
-	<input type="text" name="q" size="25" maxlength="255" value="" /> <input type="submit" value="Search" />
-	</td>
-	</tr> 
-	<tr>
-<!~~ 	Check box ~~>
-	<td align="right" style="font-size:100%"> 
-	<input type="checkbox" name="sitesearch" value="#" checked /> only search Avant Gardens<br/> 
-	</td>
-	</tr>
-	</table>
-	</div>
-	</form>
- -->
-
-					<left><a href="avantgardens.html"><img src="logo.png" class="logo"/><a></left>
-					<li><a href="about.html"><u>About</u></a></li>
+					<a href="avantgardens.html"><img src="logo.png" class="logo"/><a>
+					<li><a href="about.html">About</a></li>
 					<li><a href="contact.html">Contact</a></li>
-					<li><a href="calendar.html">Calendar</a></li>
+					<li style="border-bottom: 3px solid green;"><a href="calendar.html">Calendar</a></li>
 					<li><a href="gallery.html">Products</a></li>
-					<right><a href="#"><img src="cart.png" width="auto" style="margin: 0px 0px 0px 20px;"/></a></right>					
+					<li><a href="submit.html"><img src="cart.png" width="auto" style="margin: 0px 0px 0px 0px;"/></a></li>
 				</ul>
 			</nav>
 		</header>
-	</div>
 
+	<div class="section">
 <!-- seperation-->
 <table align="center">
 
@@ -79,11 +61,14 @@
 	</tr>
 	<tr>
 		<td>2</td>
-		<td>3</td>
-		<td>4</td>
-		<td>5</td>
-		<td>6</td>
-		<td>7</td>
+		<td class="day">3
+			<p>Graduation</p>
+		</td>
+		
+		<td class="day">4</td>
+		<td class="day">5</td>
+		<td class="day">6</td>
+		<td class="day">7</td>
 		<td>8</td>
 	</tr>
 	<tr>
@@ -96,15 +81,15 @@
 		<td>15</td>
 	</tr>
 	<tr>
-		<td style="padding-bottom:5px">16
-		<p style="font-size:14px">Happy Father's Day</p>
+		<td class="day">16
+		<p style="font-size:14px">Father's Day</p>
 		</td>
 		<td>17</td>
 		<td>18</td>
 		<td>19</td>
 		<td>20</td>
-		<td style="padding-bottom:5px">21
-		<p style="font-size:14px">First Day of Summer</p>
+		<td class="day">21
+		<p style="font-size:14px">1st Day of Summer</p>
 		</td>
 		<td>22</td>
 	</tr>
@@ -130,16 +115,28 @@
 <tfoot>
 	<tr>
 		<td colspan= "7">
-		<h1>Special Occasions:</h1>
-		<p>June 15: Happy Father's Day</p>
-		<p>June 21: First Day of Summer</p>
-
+		<h1>Recommended Flowers:</h1>
+		<div class="flowerblock">
+		<a href="product.html"><p>June 3-7: Graduation</p>
+		<img src="flowers01.jpg" class="flowers"/>
+		<img src="flowers02.jpg" class="flowers"/></a>
+		</div>
+		<div class="flowerblock">
+		<a href="product.html"><p>June 15: Father's Day</p>
+		<img src="flowers05.jpg" class="flowers"/>
+		<img src="flowers06.jpg" class="flowers"/></a>
+		</div>
+		<div class="flowerblock">
+		<a href="product.html"><p>June 21: 1st Day of Summer</p>
+		<img src="flowers03.jpg" class="flowers"/>
+		<img src="flowers04.jpg" class="flowers"/></a>
 		</td>
+		</div>
 	</tr>
 </tfoot>
 
 </table>
-<!-- seperation-->
+</div>
 
 	<footer>
 		<div class="fbox">
@@ -159,18 +156,17 @@
 			<p>778-999-9999</p>
 		</div>
 			<div>
-		<center><div><img src="facebook.png" width="30" style="margin: 0px 1.5px 0px 7em"/>
-		<img src="twitter.png" width="30" style="margin: 0px 1.5px 0px 1.5px;"/>
-		<img src="instagram.png" width="30" style="margin: 0px 1.5px 0px 1.5px"/>
-		<img src="pinterest.png" width="30" style="margin: 0px 7em 0px 1.5px"/>
+		<center><div><img src="facebook.png" class="icon"/>
+		<img src="twitter.png" class="icon"/>
+		<img src="instagram.png" class="icon"/>
+		<img src="pinterest.png" class="icon"/>
 		</div>
 		</center>
-		</div>
 		<div>
 		<center><a href="avantgardens.html"><img src="logo.png" width="150" style="margin:20px 0px"/></a></center>
 		</div>
 	</footer>
-
+ </div>
 	</body>
 
 </html>

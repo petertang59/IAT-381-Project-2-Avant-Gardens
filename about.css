@@ -9,6 +9,15 @@
 /* 		background-color: orange; */
 }
 
+.section {
+		width: 100%;
+		margin: auto;
+		float: left;
+		margin-bottom: 2em;
+		border-bottom: 3px solid #D9D9D9;
+/* 		background-color: yellow; */
+}
+
 header {
 		font-family: Oswald;
 		width: 100%;
@@ -39,8 +48,7 @@ nav ul {
 /* 		position: fixed; */
 		width: 100%;
 /* 		background: orange;  */
-		margin-left: 0em;
-		margin-top: 0px;
+		margin: 10px 5%;
 		float: center;
 /* 		z-index: 10; */
 /* 		background-color: yellow; */
@@ -63,7 +71,7 @@ a:active, a:hover {
 
 #banner {
 		width: 100%;
-		margin: 20px auto;
+		margin: 10px auto;
 		border-bottom: 3px solid #D9D9D9;
 		float: center;
 }
@@ -87,15 +95,6 @@ a:active, a:hover {
 		font-size: 15px;
 		font-family: Open Sans;
 		font-style: italic;
-}
-
-
-.section {
-		width: 100%;
-		margin: auto;
-		float: left;
-		margin-bottom: 2em;
-/* 		background-color: yellow; */
 }
  
  .box {

@@ -3,6 +3,8 @@
 	<head>
 		<title>Lavender Fountain | Avant Gardens</title>
 		<link rel="stylesheet" type="text/css" href="contact.css" />
+		<link rel="stylesheet" media= "(max-width: 800px)" type="text/css" href="contact2.css"/>
+		<link rel="stylesheet" media= "(max-width: 500px)" type="text/css" href="contact3.css"/>		
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,300' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Amatic+SC:700' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Oswald:400' rel='stylesheet' type='text/css'>
@@ -10,43 +12,35 @@
 	</head>
 	
 	<body>
-	<div class="container">
+<div class="container">
 		<header>
 			<nav>
-				<ul>
-					<!-- 
-<form method="get" action="http://www.google.com/search"> 
-	<div style="padding:0px;width:20em; margin-left: 39em"> 
-	<table border="0" cellpadding="0"> 
-	<tr>
-	<td> 
-	<input type="text" name="q" size="25" maxlength="255" value="" /> <input type="submit" value="Search" />
-	</td>
-	</tr> 
-	<tr>
-<!~~ 	Check box ~~>
-	<td align="right" style="font-size:100%"> 
-	<input type="checkbox" name="sitesearch" value="#" checked /> only search Avant Gardens<br/> 
-	</td>
-	</tr>
-	</table>
-	</div>
-	</form>
- -->
-	
-					<left><a href="avantgardens.html"><img src="logo.png" width="200" style="margin-right:12em"/><a></left>
+		<ul>
+					<a href="avantgardens.html"><img src="logo.png" class="logo"/><a>
 					<li><a href="about.html">About</a></li>
-					<li><a href="contact.html"><u>Contact</u></a></li>
+					<li style="border-bottom: 3px solid green;"><a href="contact.html">Contact</a></li>
 					<li><a href="calendar.html">Calendar</a></li>
 					<li><a href="gallery.html">Products</a></li>
-					<right><img src="cart.png" width="30" style="margin: 0px 0px 0px 20px;"/></right>
+					<li><a href="submit.html"><img src="cart.png" width="auto" style="margin: 0px 0px 0px 0px;"/></a></li>
 				</ul>
 			</nav>
 		</header>
-	</div>
 	
-	<div class="container" style="clear: both; border-bottom: 0px; padding-top: 25px; padding-left: 400px;">
-	<iframe width="450" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?q=1499+Sperling+Ave,+Burnaby,+Greater+Vancouver,+British+Columbia+V5B+4J8,+Canada&amp;hl=en&amp;sll=37.0625,-95.677068&amp;sspn=37.462243,79.013672&amp;t=m&amp;geocode=FWXP7wIdYbWr-A&amp;hnear=1499+Sperling+Ave,+Burnaby,+Greater+Vancouver,+British+Columbia+V5B+4J8,+Canada&amp;ie=UTF8&amp;hq=&amp;ll=49.270629,-122.964639&amp;spn=0.000943,0.002406&amp;z=14&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?q=1499+Sperling+Ave,+Burnaby,+Greater+Vancouver,+British+Columbia+V5B+4J8,+Canada&amp;hl=en&amp;sll=37.0625,-95.677068&amp;sspn=37.462243,79.013672&amp;t=m&amp;geocode=FWXP7wIdYbWr-A&amp;hnear=1499+Sperling+Ave,+Burnaby,+Greater+Vancouver,+British+Columbia+V5B+4J8,+Canada&amp;ie=UTF8&amp;hq=&amp;ll=49.270629,-122.964639&amp;spn=0.000943,0.002406&amp;z=14&amp;source=embed" style="color:#0000FF; text-align: center; font-family: Arial; ">View Larger Map</a></small>
+	<div class="section">
+		<img src="map.png" class="map"/>
+		<div class="email">
+			<h1>Email Us</h1>
+			 <form action="mailto:avantgardens@gmail.com" enctype="text/plain" method="post">
+			<p>Name:</p>
+			<input name="Name" type="text" id="Name">
+			<p>E-mail address:</p>
+			<input name="E-mail" type="text" id="email">
+			<p>Message:</p>
+			<p><textarea id="message" name="Message"rows="8"
+			id="Message"></textarea></p>
+			<p><input type="submit" name="Submit" value="Submit"></p>
+			</form>
+		</div>
 	</div>
 	
 	<footer>
@@ -68,15 +62,16 @@
 		</div>
 		
 		<div>
-		<center><div><img src="facebook.png" width="30" style="margin: 0px 1.5px 0px 7em"/>
-		<img src="twitter.png" width="30" style="margin: 0px 1.5px 0px 1.5px"/>
-		<img src="instagram.png" width="30" style="margin: 0px 1.5px 0px 1.5px"/>
-		<img src="pinterest.png" width="30" style="margin: 0px 7em 0px 1.5px"/>
+		<center><div><img src="facebook.png" class="icon"/>
+		<img src="twitter.png" class="icon"/>
+		<img src="instagram.png" class="icon"/>
+		<img src="pinterest.png" class="icon"/>
 		</div>
 		</center>
 		<center><a href="avantgardens.html"><img src="logo.png" width="150" style="margin:20px 0px"/></a></center>
 		</div>	
 	</footer>
+</div>
 	</body>
 	
 </html>

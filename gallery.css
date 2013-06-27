@@ -1,16 +1,18 @@
- .container{
- 		max-width: 900px;
+.container {
+/* 		width: 900px; */
+		max-width: 900px;
 		width: 80%;
-		margin: 20px auto;
+		margin: 0px auto;
 		float: center;
 		border-bottom: 3px solid #D9D9D9;
- }
- 
- .section {
+		position: center;
+/* 		background-color: orange; */
+}
+
+.section {
 		width: 100%;
 		margin: auto;
-		float: center;
-		margin-bottom: 2em;
+		float: left;
 /* 		background-color: yellow; */
 }
 
@@ -44,8 +46,7 @@ nav ul {
 /* 		position: fixed; */
 		width: 100%;
 /* 		background: orange;  */
-		margin-left: 0em;
-		margin-top: 0px;
+		margin: 10px 5%;
 		float: center;
 /* 		z-index: 10; */
 /* 		background-color: yellow; */
@@ -65,7 +66,8 @@ width:22%;
 }
 
 .sort ul {
-		margin: 15px 0px;
+		margin: auto;
+		margin-top: 15px;
 /* 		background: orange;  */
 		float: center;
 		text-align: center;
